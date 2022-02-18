@@ -1,0 +1,81 @@
+
+
+
+.top-container{
+        background: url(./image/learn-image.png) center/cover;
+        height: 81vh;
+}
+
+.mid-sec{
+    padding: 12px 12px;
+}
+
+
+.mid-sec h1{
+    margin: 0;
+    color: #2e2e2e;
+}
+
+.mid-sec h3{
+        color: #3D0DB1
+}
+
+.desc-word_wrapper{
+    padding: 12px 12px;
+    background-color: #000000;;
+}
+
+.bit-wrapper{
+    background: url(./image/bitcoin.PNG) center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.hero-container__two{
+    background: url(./image/nickejnkxa.png) center/cover;
+    background-repeat: no-repeat;
+}
+
+@media(min-width: 556px){
+    .bit-wrapper {
+        height: 173px;
+    }
+
+    div h1{
+        margin: 0;
+    }
+    
+    .desc-word_wrapper{
+        display: flex;
+    }
+
+    
+    .price-section__wrapper{
+        display: flex;
+    }
+
+
+}
+
+
+
+
+@media(min-width: 660px){
+
+    .desc-sect {
+        padding: 11px;
+    }
+
+    .help-container__wrapper{
+        display: flex;
+    }
+
+    .price-section__wrapper{
+        display: flex;
+    }
+
+    .price-wrapper{
+        margin-right: 76px;
+    }
+}

@@ -1,0 +1,94 @@
+
+
+.top-container{
+    background: url(./image/account-type.png) center/cover;
+    background-repeat: no-repeat;
+    height: 71vh;;
+}
+
+
+.top-dawg{
+    margin-top: 0;
+    text-align: center;
+}
+
+.middle-section{
+    padding: 12px 12px;
+}
+
+
+.smart-folder{
+    text-align: center;
+}
+
+.smart-card{
+    width: 341px;
+}
+
+.form-text{
+    text-align: center;
+}
+
+.span-child{
+    color: #3f3f86;
+}
+
+.form-link a{
+    text-decoration: none;
+    color: lavenderblush;
+}
+
+.form-text__subtext{
+    text-align: center;
+}
+
+.button{
+    color: rgb(23, 29, 87);
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 12px;
+    border: 1px solid #0856e6;
+    position: relative;
+    cursor: pointer;
+    background: #3f3f8650;
+    font-family: inherit;
+}
+
+
+.button::before{
+    content: "";
+    position: absolute;
+    background-color: #0856e6;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    transition: 0.25s left;
+    z-index: -1;
+}
+
+.button:hover::before{
+    left: 0;
+}
+
+.button span{
+    z-index: 4;
+    position: relative;
+}
+
+button{
+    overflow: hidden;
+}
+
+
+
+.button:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.form-section{
+        text-align: center;
+        padding: 41px 12px;
+}

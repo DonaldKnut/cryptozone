@@ -1,0 +1,50 @@
+.hero-container__two{
+        background: url(./image/nickejnkxa.png) center/cover;
+        height: 71vh;
+}
+
+
+.top-dawg{
+    margin-top: 0;
+}
+
+
+.span-child{
+    color: #4949c4;
+    margin-right: 11px;
+}
+
+.overview-page{
+    background: white;
+    color: black;
+    padding: 12px 12px;
+}
+
+
+.first-overview-sec h2{
+    margin-top: 0;
+}
+
+.hero-container__two h2{
+        text-align: center;
+}
+
+@media(min-width: 611px){
+
+    .secondary__items{
+        display: flex;
+    }
+
+    .first-bloc{
+        display: flex;
+    }
+    
+    .second-bloc{
+        display: flex;
+    }
+    
+    .margin-needed{
+        margin-right: 112px;
+    }
+
+}

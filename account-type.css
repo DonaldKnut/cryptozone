@@ -1,0 +1,60 @@
+.hero-container{
+    background: url(./image/account-type.png) center/cover;
+}
+
+.top-dawg{
+   text-align: center;
+   ;
+}
+
+
+.first-rec{
+    padding: 10px 10px;
+    background: #845AE9;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.second-rec{
+    padding: 10px 10px;
+    background: #845AE9;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.third-rec{
+    padding: 10px 10px;
+    background: #845AE9;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.price{
+    background: #33339b;
+    padding: 11px;
+}
+
+.label{
+    color: #35108a;
+}
+
+.type-section{
+    padding: 12px 12px;
+}
+
+@media(min-width: 718px){
+    .type-section{
+        display: flex;
+    }
+
+    .first-rec{
+     margin-right: 6px;
+    }
+    
+    .second-rec{
+   margin-right: 6px;
+    }
+}
